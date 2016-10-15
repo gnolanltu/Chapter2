@@ -27,4 +27,10 @@ class CalculatorTests: XCTestCase {
         XCTAssertEqual(resCalc.add(a: 5,b: 4),9)
     }
     
+    func testPerformanceExample() {
+        self.measure() {
+            XCTAssertEqual(self.resCalc.add(a:1, b:2),3)
+        }
+    }
+
 }

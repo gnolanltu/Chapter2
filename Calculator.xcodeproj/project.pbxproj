@@ -15,6 +15,9 @@
 		CEBABC3A1DB115C500A8463B /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBABC391DB115C500A8463B /* CalculatorTests.swift */; };
 		CEBABC451DB115C500A8463B /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBABC441DB115C500A8463B /* CalculatorUITests.swift */; };
 		CEBABC551DB27AF600A8463B /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBABC541DB27AF600A8463B /* CalculatorModel.swift */; };
+		CEBABC571DB27E6B00A8463B /* BeforeSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBABC561DB27E6B00A8463B /* BeforeSetupTests.swift */; };
+		CEBABC591DB27F1300A8463B /* AfterSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBABC581DB27F1300A8463B /* AfterSetupTests.swift */; };
+		CEBABC5B1DB2808C00A8463B /* TearDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBABC5A1DB2808C00A8463B /* TearDownTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		CEBABC441DB115C500A8463B /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		CEBABC461DB115C500A8463B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEBABC541DB27AF600A8463B /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
+		CEBABC561DB27E6B00A8463B /* BeforeSetupTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeforeSetupTests.swift; sourceTree = "<group>"; };
+		CEBABC581DB27F1300A8463B /* AfterSetupTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfterSetupTests.swift; sourceTree = "<group>"; };
+		CEBABC5A1DB2808C00A8463B /* TearDownTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TearDownTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 			children = (
 				CEBABC391DB115C500A8463B /* CalculatorTests.swift */,
 				CEBABC3B1DB115C500A8463B /* Info.plist */,
+				CEBABC561DB27E6B00A8463B /* BeforeSetupTests.swift */,
+				CEBABC5A1DB2808C00A8463B /* TearDownTests.swift */,
+				CEBABC581DB27F1300A8463B /* AfterSetupTests.swift */,
 			);
 			path = CalculatorTests;
 			sourceTree = "<group>";
@@ -272,6 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBABC591DB27F1300A8463B /* AfterSetupTests.swift in Sources */,
+				CEBABC5B1DB2808C00A8463B /* TearDownTests.swift in Sources */,
+				CEBABC571DB27E6B00A8463B /* BeforeSetupTests.swift in Sources */,
 				CEBABC3A1DB115C500A8463B /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
