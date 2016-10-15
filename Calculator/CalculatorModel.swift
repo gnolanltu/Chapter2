@@ -2,7 +2,7 @@
 //  CalculatorModel.swift
 //  Calculator
 //
-//  Created by User on 10/14/16.
+//  Created by User on 10/15/16.
 //  Copyright © 2016 riis. All rights reserved.
 //
 
